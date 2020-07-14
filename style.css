@@ -1,0 +1,41 @@
+.btn {
+    background: #F063B8;
+    border-radius: 50px;
+    width: 200px;
+    height: 49px;
+    border: none;
+    font-size: 18px;
+     box-sizing: border-box;
+}
+
+.pageheader{
+    color: #FFFFFF !important;
+}
+
+.section1{
+    padding-top: 120px !important;
+    padding-bottom: 15px !important;
+}
+
+
+#header {
+    background: #423CD4;
+}
+
+h1 {
+    font-family: Open Sans;
+    color: #FFFFFF;
+}
+p{
+     font-family: Open Sans;
+    color: #FFFFFF;
+}
+
+.text-area{
+    background: #F7F7F7;
+    border: 0.3px solid #00263B;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 11px 43px;
+    height: 49px
+}
