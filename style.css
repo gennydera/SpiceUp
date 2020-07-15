@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 .btn {
     background: #F063B8;
     border-radius: 50px;
@@ -5,7 +9,7 @@
     height: 49px;
     border: none;
     font-size: 18px;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .pageheader{
@@ -22,12 +26,12 @@
     background: #423CD4;
 }
 
-h1 {
+.section1 h1 {
     font-family: Open Sans;
     color: #FFFFFF;
 }
-p{
-     font-family: Open Sans;
+.section1 p{
+    font-family: Open Sans;
     color: #FFFFFF;
 }
 
@@ -39,3 +43,26 @@ p{
     padding: 11px 43px;
     height: 49px
 }
+
+.container-box h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #212353;
+    text-align: center;
+}
+ .container-box p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(33, 35, 83, 0.8);
+    text-align: center;
+ }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
