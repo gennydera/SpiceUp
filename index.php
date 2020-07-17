@@ -112,7 +112,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 
     <div class="container">
       <div class="row">
-        <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5" data-aos="flip-left" data-aos-duration="3000">
+        <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
           <img src="images/Phone11-pro-back (10) 1.png" alt="" class="center">
         </div>
         <div class=" container write col-md-7 pb-5 mb-5 px-5">
