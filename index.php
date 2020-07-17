@@ -58,7 +58,13 @@ if (filter_has_var(INPUT_POST, 'submit')) {
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+  <!-- AOS CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Google fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- main css-->
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>SpiceUp</title>
@@ -68,16 +74,11 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 <body>
   <section id="header">
     <div class="container">
-
-      <div class="overlay first"></div>
-      <div class="overlay second"></div>
-      <div class=" overlay third"></div>
-
-      <div class="pageheader pt-5">
+      <div class="pageheader pt-5" data-aos="fade-down">
         <img src=" images/SpiceUp.svg">
       </div>
       <div class="row">
-        <div class="section1 col-md-6">
+        <div class="section1 col-md-6" data-aos="fade-left">
           <h1><span>Lets Go! Get Notified <br> When SPICEUP is Launched</span></h1>
           <p><span>Falling out of love, but looking for something to bring back the spark <br> and also help you remember how it felt like to have fun together? <br> SPICEUP app got you covered</span></p>
           <form action="index.php" method="POST">
@@ -87,14 +88,14 @@ if (filter_has_var(INPUT_POST, 'submit')) {
               </div>
             <?php endif; ?>
             <div class="form-group">
-              <div class="d-flex">
+              <div class="d-flex" data-aos="fade-down">
                 <input type="text" name="email" class="text-area email-form" style="color: #FF0000" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="Enter Your E-mail"><br>
-                <button type="submit" class="btn text-white" name="submit">Notify Me</button>
+                <button type="submit" class="btn btn-small text-white" name="submit">Notify Me</button>
               </div>
             </div>
           </form>
         </div>
-        <div class="section2 img-fluid col-md-6">
+        <div class="section2 img-fluid col-md-6" data-aos="zoom-in" data-aos-duration="3000">
           <img src="images/pic.jpg" class="images" alt="">
         </div>
       </div>
@@ -109,27 +110,27 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     </div>
     <div class="container">
       <div class="row">
-        <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5">
-          <img src="images/body.png" alt="" class="center">
+        <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5" data-aos="fade-down-left">
+          <img src="images/Phone11-pro-back (10) 1.png" alt="" class="center">
         </div>
         <div class=" container write col-md-7 pb-5 mb-5 px-5">
           <div class="row pt-5 col-12">
-            <h1><strong style="color: #212353">01</strong></h1>
-            <div class="container">
+            <h1 class="number" style="color: #212353"><strong>01</strong></h1>
+            <div class="container" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Create An Acount</span></h5>
               <p><span>After downloading the Spice-Up application, the next <br> thing you have to do is create an account</span></p>
             </div>
           </div>
           <div class="row pt-5 col-12">
-            <h1><strong style="color: #212353">02</strong></h1>
-            <div class="container">
+            <h1 class="number" style="color: #212353"><strong>02</strong></h1>
+            <div class="container" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Customize Your Preferences</span></h5>
               <p><span>After creating an account and logging in, you have to <br> select you and your partner's preferences</span></p>
             </div>
           </div>
           <div class="row pt-5 col-12">
-            <h1><strong style="color: #212353">03</strong></h1>
-            <div class="container">
+            <h1 class="number" style="color: #212353"><strong>03</strong></h1>
+            <div class="container" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Tada! You're Good To Go</span></h5>
               <p><span>After creating your account and customizing your <br> preferences you're all good to go as we're watching out <br> for you.</span></p>
             </div>
@@ -138,6 +139,57 @@ if (filter_has_var(INPUT_POST, 'submit')) {
       </div>
     </div>
   </section>
+
+  
+    <!--screens and designs -->
+<section id="screens">
+    <div class="container-box pt-5 mt-3" data-aos="fade-up">
+      <h1><span> Screens and Designs</span></h1>
+      <p><span>Some nice shots from the app design you’d love to see</span></p>
+    </div>
+     
+     
+   <div class="uk-child-width-1-3@m py-5 px-5 mx-auto" uk-grid uk-lightbox="animation: scale" data-aos="zoom-in" data-aos-duration="3000">
+  <!--slider 01-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (11).png">
+            <img src="images/Phone11-pro-back (11).png" alt="">
+        </a>
+    </div>
+    <!--slider 02-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (10).png">
+            <img src="images/Phone11-pro-back (10).png" alt="">
+        </a>
+    </div>
+    <!--slider 03-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (15).png">
+            <img src="images/Phone11-pro-back (15).png" alt="">
+        </a>
+    </div>
+    <!--slider 04-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (9).png">
+            <img src="images/Phone11-pro-back (9).png" alt="">
+        </a>
+    </div>
+    <!--slider 05-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (14).png">
+            <img src="images/Phone11-pro-back (14).png" alt="">
+        </a>
+    </div>
+    <!--slider 06-->
+    <div class="screen-img">
+        <a class="uk-inline" href="images/Phone11-pro-back (13).png">
+            <img src="images/Phone11-pro-back (13).png" alt="">
+        </a>
+    </div>
+</div>
+
+</section>
+
 
   <!--subscription-->
   <section id="header">
@@ -155,13 +207,13 @@ if (filter_has_var(INPUT_POST, 'submit')) {
             <div class="form-group">
               <div class="d-flex">
                 <input type="text" name="email" class="text-area email-form" style="color: #FF0000" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="Enter Your E-mail"><br>
-                <button type="submit" class="btn text-white email-button" name="submit">Notify Me</button>
+                <button type="submit" class="btn btn-small text-white" name="submit">Notify Me</button>
               </div>
             </div>
           </form>
         </div>
-        <div class="section2 img-fluid col-md-6 pt-5 pb-5 px-5">
-          <img src="images/body.png" class="images" alt="">
+        <div class="section2 col-md-6 pt-5 pb-5 px-5">
+          <img src="images/Group 74.png" class="images" alt="">
         </div>
       </div>
     </div>
@@ -175,12 +227,12 @@ if (filter_has_var(INPUT_POST, 'submit')) {
           <h1><span> Coming Soon!</span></h1>
           <p><span>Get limited 1 week free try our features when we launch!</span></p>
         </div>
-        <div class="buttons col-md-3 pt-5 mt-3 px-5">
-          <form class="form-inline my-2 ">
-            <button class="btn btn-book email-button" type="submit" style="background: #F063B8" ;>Learn more</button>
+        <div class="buttons col-md-3 col-sm-6 pt-5 mt-3 px-5">
+          <form class="form-inline">
+            <button class="btn btn-small email-button" type="submit" style="background: #F063B8" ;>Learn more</button>
           </form>
         </div>
-        <div class="buttons col-md-3 pt-5 mt-3 px-5">
+        <div class="buttons col-md-3 col-sm-6 pt-5 mt-3 px-5">
           <a class="brand" href="#"><img src="images/RequestDemo.png"></a>
         </div>
       </div>
@@ -202,11 +254,18 @@ if (filter_has_var(INPUT_POST, 'submit')) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+  <!--form JS-->
   <script src="php-form.js"></script>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+  <!--AOS JS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <script>
-
-
+       AOS.init( {
+          duration: 1200
+        });
   </script>
 </body>
 

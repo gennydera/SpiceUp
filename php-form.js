@@ -20,3 +20,4 @@ function clearField() {
 }
 
 submitButton.addEventListener('submit', clearField());
+
