@@ -233,12 +233,7 @@ html,body{
     .form-inline{
         display: none;
     }
-    .write h5, p{
-        text-align: left !important;
-    }
-    .container-box h1, p{
-        text-align: center !important;
-    }
+    
     .btn {
     background: #F063B8;
     border-radius: 25px;
@@ -248,7 +243,10 @@ html,body{
     font-size: 14px;
     box-sizing: border-box;
     overflow: hidden;
-}
+    }
+    .writeup{
+        text-align: left !important;
+    }
 .text-area{
     background: #F7F7F7;
     border: 0.3px solid #00263B;
@@ -256,6 +254,9 @@ html,body{
     border-radius: 20px;
     padding: 5px 25px;
     height: 49px
+}
+.footer{
+    text-align: center;
 }
 }
 

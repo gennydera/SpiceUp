@@ -104,11 +104,12 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 
   <!--How it works-->
   <section id="features">
-    <div class="container-box pt-5 mt-3">
+    <div class="">
+    <div class="container-box writing pt-5 mt-3">
       <h1><span>How SpiceUp Works</span></h1>
       <p><span>Customise and use your spiceUp application in 3 simple steps</span></p>
     </div>
-  
+
     <div class="container">
       <div class="row">
         <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5" data-aos="fade-down-left">
@@ -117,21 +118,21 @@ if (filter_has_var(INPUT_POST, 'submit')) {
         <div class=" container write col-md-7 pb-5 mb-5 px-5">
           <div class="row pt-5 col-12">
             <h1 class="number" style="color: #212353"><strong>01</strong></h1>
-            <div class="container" data-aos="fade-left" data-aos-duration="3000">
+            <div class="container writeup" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Create An Acount</span></h5>
               <p><span>After downloading the Spice-Up application, the next <br> thing you have to do is create an account</span></p>
             </div>
           </div>
           <div class="row pt-5 col-12">
             <h1 class="number" style="color: #212353"><strong>02</strong></h1>
-            <div class="container" data-aos="fade-left" data-aos-duration="3000">
+            <div class="container writeup" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Customize Your Preferences</span></h5>
               <p><span>After creating an account and logging in, you have to <br> select you and your partner's preferences</span></p>
             </div>
           </div>
           <div class="row pt-5 col-12">
             <h1 class="number" style="color: #212353"><strong>03</strong></h1>
-            <div class="container" data-aos="fade-left" data-aos-duration="3000">
+            <div class="container writeup" data-aos="fade-left" data-aos-duration="3000">
               <h5 style="color: #212353"><span>Tada! You're Good To Go</span></h5>
               <p><span>After creating your account and customizing your <br> preferences you're all good to go as we're watching out <br> for you.</span></p>
             </div>
@@ -139,6 +140,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
         </div>
       </div>
     </div>
+  </div>
   </section>
 
   
