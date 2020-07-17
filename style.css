@@ -237,15 +237,25 @@ html,body{
         text-align: left !important;
     }
     .container-box h1, p{
-        text-align: center;
+        text-align: center !important;
     }
     .btn {
     background: #F063B8;
-    border-radius: 50px;
+    border-radius: 25px;
     width: 200px;
     height: 49px;
     border: none;
-    font-size: 18px;
+    font-size: 14px;
     box-sizing: border-box;
     overflow: hidden;
 }
+.text-area{
+    background: #F7F7F7;
+    border: 0.3px solid #00263B;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5px 25px;
+    height: 49px
+}
+}
+
