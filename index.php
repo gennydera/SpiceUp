@@ -108,6 +108,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
       <h1><span>How SpiceUp Works</span></h1>
       <p><span>Customise and use your spiceUp application in 3 simple steps</span></p>
     </div>
+  
     <div class="container">
       <div class="row">
         <div class="images img-fluid pt-5 pb-5  mb-5  px-5 col-md-5" data-aos="fade-down-left">
