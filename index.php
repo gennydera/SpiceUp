@@ -207,7 +207,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
             <div class="form-group">
               <div class="d-flex">
                 <input type="text" name="email" class="text-area email-form" style="color: #FF0000" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="Enter Your E-mail"><br>
-                <button type="submit" class="btn btn-small text-white" name="submit">Notify Me</button>
+                <button type="submit" class="btn text-white" name="submit">Notify Me</button>
               </div>
             </div>
           </form>
