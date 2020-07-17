@@ -244,7 +244,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
         <i class="fa fa-facebook-square p-4"></i>
         <i class="fa fa-youtube-play p-4" aria-hidden="true"></i>
       </div>
-      <d iv class="copyright text-center col-md-12 pt-2">
+      <div class="copyright text-center col-md-12 pt-2">
         &copy; Copyright 2018 All rights reserved - Designed by Genevieve
       </div>
     </div>

@@ -82,6 +82,7 @@ html,body{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
+    text-align: center;
 }
 
 .img-fluid{
@@ -256,6 +257,9 @@ html,body{
     height: 49px
 }
 .footer{
+    text-align: center;
+}
+.copyright {
     text-align: center;
 }
 }
