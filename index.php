@@ -154,37 +154,37 @@ if (filter_has_var(INPUT_POST, 'submit')) {
      
    <div class="uk-child-width-1-3@m py-5 px-5 mx-auto" uk-grid uk-lightbox="animation: scale" data-aos="zoom-in" data-aos-duration="3000">
   <!--slider 01-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (11).png">
             <img src="images/Phone11-pro-back (11).png" alt="">
         </a>
     </div>
     <!--slider 02-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (10).png">
             <img src="images/Phone11-pro-back (10).png" alt="">
         </a>
     </div>
     <!--slider 03-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (15).png">
             <img src="images/Phone11-pro-back (15).png" alt="">
         </a>
     </div>
     <!--slider 04-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (9).png">
             <img src="images/Phone11-pro-back (9).png" alt="">
         </a>
     </div>
     <!--slider 05-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (14).png">
             <img src="images/Phone11-pro-back (14).png" alt="">
         </a>
     </div>
     <!--slider 06-->
-    <div class="screen-img">
+    <div class="screen-img pt-5">
         <a class="uk-inline" href="images/Phone11-pro-back (13).png">
             <img src="images/Phone11-pro-back (13).png" alt="">
         </a>
